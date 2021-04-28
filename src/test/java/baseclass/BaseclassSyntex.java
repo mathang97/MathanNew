@@ -31,6 +31,13 @@ public class BaseclassSyntex {
 		
 	}
 
+	
+	public void launchurl1(String url) {
+		driver.get(url);
+		}
+
+	
+	
 public void launchurl(String data) {
 	driver.get(data);
 	}
