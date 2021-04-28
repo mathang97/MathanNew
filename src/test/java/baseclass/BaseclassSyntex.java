@@ -35,6 +35,10 @@ public class BaseclassSyntex {
 	public void launchurl1(String url) {
 		driver.get(url);
 		}
+	
+	public void entertext1(WebElement ref,String name) {
+		ref.sendKeys(name);
+		}
 
 	
 	
