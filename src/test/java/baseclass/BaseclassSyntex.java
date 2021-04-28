@@ -30,7 +30,15 @@ public class BaseclassSyntex {
 		driver.manage().window().maximize();
 		
 	}
+	
+	public void launchurnew(String data) {
+		driver.get(data);
+		}
+	public void entertexnewt(WebElement ref,String name) {
+		ref.sendKeys(name);
 
+	}
+	
 public void launchurl(String data) {
 	driver.get(data);
 	}
