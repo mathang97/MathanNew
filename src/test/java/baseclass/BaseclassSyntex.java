@@ -37,8 +37,8 @@ public class BaseclassSyntex {
 	public void entertexnewt(WebElement ref,String name) {
 		ref.sendKeys(name);
 
+
 	}
-	
 public void launchurl(String data) {
 	driver.get(data);
 	}
@@ -157,4 +157,11 @@ public void framecount() {
 
 
 
-} 
+ 
+
+	
+	
+
+	
+
+	
